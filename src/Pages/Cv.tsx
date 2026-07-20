@@ -54,7 +54,9 @@ export default function Cv() {
                             </div>
                         </div>
                     </aside>
-                    <div className="cv__experience-main"></div>
+                    <div className="cv__experience-main">
+                        <h2 className="cv__experience-title">Professional Experience</h2>
+                    </div>
                 </div>
             </section>
         </>
