@@ -1,0 +1,26 @@
+.footer{
+    font-family: 'Hanken-Grotesk';
+    padding: 3.2em 1.6em;
+    background-color: rgb(251, 249, 248);
+    border-top: solid 1px rgb(196, 199, 199);
+    &-text{
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+
+    &-link{
+        display: flex;
+        gap: 24px;
+
+        &-item{
+            font-size: 16px;
+            line-height: 1.6;
+            font-weight: 400;
+            color: rgb(68 71 72 );
+            transition: color 0.3s ease-in;
+            &:hover{
+                color: var(--color-orange);
+            }
+        }
+    }
+}

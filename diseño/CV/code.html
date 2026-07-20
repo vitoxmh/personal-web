@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Curriculum Vitae - The Sophisticated Craftsperson</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&amp;family=Hanken+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed": "#e5e2e1",
+                        "inverse-surface": "#303031",
+                        "surface": "#fbf9f8",
+                        "error-container": "#ffdad6",
+                        "surface-dim": "#dbdad9",
+                        "primary": "#000000",
+                        "secondary-container": "#fc7050",
+                        "on-surface-variant": "#444748",
+                        "secondary-fixed": "#ffdad2",
+                        "tertiary": "#000000",
+                        "surface-container-high": "#e9e8e7",
+                        "tertiary-fixed": "#e4e2dd",
+                        "outline-variant": "#c4c7c7",
+                        "on-primary-fixed-variant": "#474746",
+                        "on-error": "#ffffff",
+                        "primary-container": "#1c1b1b",
+                        "inverse-primary": "#c8c6c5",
+                        "on-tertiary": "#ffffff",
+                        "on-surface": "#1b1c1c",
+                        "surface-variant": "#e4e2e2",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "tertiary-container": "#1b1c19",
+                        "surface-container": "#efeded",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#891d04",
+                        "surface-bright": "#fbf9f8",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed-dim": "#c8c6c2",
+                        "on-secondary-container": "#671000",
+                        "on-primary-fixed": "#1c1b1b",
+                        "on-tertiary-fixed-variant": "#474744",
+                        "background": "#fbf9f8",
+                        "on-secondary": "#ffffff",
+                        "secondary-fixed-dim": "#ffb4a3",
+                        "on-background": "#1b1c1c",
+                        "surface-container-highest": "#e4e2e2",
+                        "on-tertiary-container": "#848480",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#5f5e5e",
+                        "on-primary": "#ffffff",
+                        "secondary": "#ab351b",
+                        "surface-container-low": "#f5f3f3",
+                        "on-secondary-fixed": "#3d0600",
+                        "inverse-on-surface": "#f2f0f0",
+                        "on-primary-container": "#858383",
+                        "outline": "#747878",
+                        "on-tertiary-fixed": "#1b1c19"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-lg": "80px",
+                        "stack-sm": "16px",
+                        "unit": "8px",
+                        "margin-mobile": "20px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "container-max": "1120px",
+                        "stack-md": "32px"
+                    },
+                    "fontFamily": {
+                        "headline-sm": [
+                            "EB Garamond"
+                        ],
+                        "body-lg": [
+                            "Hanken Grotesk"
+                        ],
+                        "label-caps": [
+                            "Hanken Grotesk"
+                        ],
+                        "display-lg": [
+                            "EB Garamond"
+                        ],
+                        "display-lg-mobile": [
+                            "EB Garamond"
+                        ],
+                        "body-md": [
+                            "Hanken Grotesk"
+                        ],
+                        "headline-md": [
+                            "EB Garamond"
+                        ]
+                    },
+                    "fontSize": {
+                        "headline-sm": [
+                            "24px",
+                            {
+                                "lineHeight": "1.4",
+                                "fontWeight": "600"
+                            }
+                        ],
+                        "body-lg": [
+                            "18px",
+                            {
+                                "lineHeight": "1.6",
+                                "fontWeight": "400"
+                            }
+                        ],
+                        "label-caps": [
+                            "12px",
+                            {
+                                "lineHeight": "1.0",
+                                "letterSpacing": "0.1em",
+                                "fontWeight": "700"
+                            }
+                        ],
+                        "display-lg": [
+                            "64px",
+                            {
+                                "lineHeight": "1.1",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "500"
+                            }
+                        ],
+                        "display-lg-mobile": [
+                            "40px",
+                            {
+                                "lineHeight": "1.2",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "500"
+                            }
+                        ],
+                        "body-md": [
+                            "16px",
+                            {
+                                "lineHeight": "1.6",
+                                "fontWeight": "400"
+                            }
+                        ],
+                        "headline-md": [
+                            "32px",
+                            {
+                                "lineHeight": "1.3",
+                                "fontWeight": "500"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: theme('colors.background');
+            color: theme('colors.on-background');
+            font-family: theme('fontFamily.body-md');
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<header class="w-full top-0 bg-surface border-b border-outline-variant flat no shadows">
+<nav class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto font-body-md text-body-md text-primary">
+<div class="font-headline-sm text-headline-sm text-primary">
+                The Sophisticated Craftsperson
+            </div>
+<ul class="hidden md:flex gap-gutter items-center">
+<li>
+<a class="cursor-pointer transition-all transition-colors duration-200 hover:text-secondary text-on-surface-variant hover:text-primary" href="#">Home</a>
+</li>
+<li>
+<a class="cursor-pointer transition-all transition-colors duration-200 hover:text-secondary text-on-surface-variant hover:text-primary" href="#">Blog</a>
+</li>
+<li>
+<a class="cursor-pointer transition-all transition-colors duration-200 hover:text-secondary text-secondary font-bold border-b-2 border-secondary" href="#">CV</a>
+</li>
+<li>
+<a class="cursor-pointer transition-all transition-colors duration-200 hover:text-secondary text-on-surface-variant hover:text-primary" href="#">Projects</a>
+</li>
+<li>
+<a class="cursor-pointer transition-all transition-colors duration-200 hover:text-secondary text-on-surface-variant hover:text-primary" href="#">Contact</a>
+</li>
+</ul>
+<button class="hidden md:block bg-primary text-on-primary py-[12px] px-[32px] rounded font-label-caps text-label-caps hover:bg-secondary-container transition-colors duration-300">
+                Hire Me
+            </button>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+</header>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
+<div class="max-w-3xl">
+<h1 class="font-display-lg-mobile md:font-display-lg text-primary mb-stack-sm">Curriculum Vitae</h1>
+<p class="font-body-lg text-on-surface-variant leading-relaxed">
+                    A comprehensive overview of my professional journey, blending technical expertise with a keen eye for design and user experience. I build systems that are both robust and beautiful.
+                </p>
+<div class="mt-stack-md flex gap-unit">
+<a class="inline-flex items-center justify-center gap-2 border border-outline text-on-surface py-2 px-6 rounded hover:bg-surface-container transition-colors font-label-caps text-label-caps" href="#">
+<span class="material-symbols-outlined text-[18px]">download</span>
+                        Download PDF
+                    </a>
+</div>
+</div>
+</section>
+<!-- Main Content Grid -->
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pb-stack-lg grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Sidebar (Skills & Ed) -->
+<aside class="md:col-span-4 flex flex-col gap-stack-lg">
+<!-- Skills -->
+<div class="bg-surface-container-low p-stack-md border border-outline-variant rounded-sm">
+<h2 class="font-headline-md text-primary mb-stack-sm flex items-center gap-2">
+<span class="material-symbols-outlined">code</span>
+                        Technical Skills
+                    </h2>
+<div class="mb-stack-sm">
+<h3 class="font-label-caps text-on-surface-variant mb-unit">Frontend</h3>
+<div class="flex flex-wrap gap-2">
+<span class="font-label-caps text-label-caps border border-outline-variant text-on-surface px-3 py-1 rounded-full">React</span>
+<span class="font-label-caps text-label-caps border border-outline-variant text-on-surface px-3 py-1 rounded-full">TypeScript</span>
+<span class="font-label-caps text-label-caps border border-outline-variant text-on-surface px-3 py-1 rounded-full">Next.js</span>
+<span class="font-label-caps text-label-caps border border-outline-variant text-on-surface px-3 py-1 rounded-full">Tailwind CSS</span>
+<span class="font-label-caps text-label-caps border border-outline-variant text-on-surface px-3 py-1 rounded-full">WebGL</span>
+</div>
+</div>
+<div>
+<h3 class="font-label-caps text-on-surface-variant mb-unit">Backend &amp; Tools</h3>
+<div class="flex flex-wrap gap-2">
+<span class="font-label-caps text-label-caps border border-outline-variant text-on-surface px-3 py-1 rounded-full">Node.js</span>
+<span class="font-label-caps text-label-caps border border-outline-variant text-on-surface px-3 py-1 rounded-full">PostgreSQL</span>
+<span class="font-label-caps text-label-caps border border-outline-variant text-on-surface px-3 py-1 rounded-full">Figma</span>
+<span class="font-label-caps text-label-caps border border-outline-variant text-on-surface px-3 py-1 rounded-full">Git</span>
+</div>
+</div>
+</div>
+<!-- Education -->
+<div>
+<h2 class="font-headline-md text-primary mb-stack-sm border-b border-outline-variant pb-2">Education</h2>
+<div class="flex flex-col gap-stack-sm">
+<div>
+<h3 class="font-headline-sm text-primary">M.S. Computer Science</h3>
+<div class="flex justify-between items-center text-on-surface-variant font-label-caps text-label-caps mt-1">
+<span>Stanford University</span>
+<span>2018 - 2020</span>
+</div>
+<p class="mt-2 text-on-surface-variant text-sm">Specialization in Human-Computer Interaction.</p>
+</div>
+<div>
+<h3 class="font-headline-sm text-primary">B.S. Graphic Design</h3>
+<div class="flex justify-between items-center text-on-surface-variant font-label-caps text-label-caps mt-1">
+<span>Rhode Island School of Design</span>
+<span>2014 - 2018</span>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<!-- Experience Timeline -->
+<div class="md:col-span-8">
+<h2 class="font-headline-md text-primary mb-stack-sm border-b border-outline-variant pb-2">Professional Experience</h2>
+<div class="relative border-l border-outline-variant ml-4 md:ml-6 flex flex-col gap-stack-md pb-8">
+<!-- Job 1 -->
+<div class="relative pl-8 before:content-[''] before:absolute before:-left-[5px] before:top-2 before:w-[10px] before:h-[10px] before:bg-primary before:rounded-full">
+<div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+<h3 class="font-headline-sm text-primary">Senior Creative Technologist</h3>
+<span class="font-label-caps text-label-caps text-secondary">2021 - Present</span>
+</div>
+<div class="font-body-md text-on-surface font-medium mb-3">Studio Minimal, New York</div>
+<ul class="list-none flex flex-col gap-2 text-on-surface-variant text-body-md">
+<li class="relative pl-4 before:content-['-'] before:absolute before:left-0 before:text-outline">Lead the development of high-performance web applications for luxury brand clients, ensuring pixel-perfect implementation of complex designs.</li>
+<li class="relative pl-4 before:content-['-'] before:absolute before:left-0 before:text-outline">Established internal design system connecting Figma tokens directly to React components, reducing developer handoff time by 40%.</li>
+<li class="relative pl-4 before:content-['-'] before:absolute before:left-0 before:text-outline">Mentored a team of 4 junior developers in advanced CSS techniques and web accessibility standards.</li>
+</ul>
+</div>
+<!-- Job 2 -->
+<div class="relative pl-8 before:content-[''] before:absolute before:-left-[5px] before:top-2 before:w-[10px] before:h-[10px] before:bg-surface before:border-2 before:border-outline before:rounded-full">
+<div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+<h3 class="font-headline-sm text-primary">Frontend Developer</h3>
+<span class="font-label-caps text-label-caps text-on-surface-variant">2019 - 2021</span>
+</div>
+<div class="font-body-md text-on-surface font-medium mb-3">TechNova Solutions, San Francisco</div>
+<ul class="list-none flex flex-col gap-2 text-on-surface-variant text-body-md">
+<li class="relative pl-4 before:content-['-'] before:absolute before:left-0 before:text-outline">Developed interactive data visualization dashboards using D3.js and React, processing real-time analytics for enterprise clients.</li>
+<li class="relative pl-4 before:content-['-'] before:absolute before:left-0 before:text-outline">Collaborated closely with UX researchers to implement A/B testing variations that improved conversion rates by 15%.</li>
+</ul>
+</div>
+<!-- Job 3 -->
+<div class="relative pl-8 before:content-[''] before:absolute before:-left-[5px] before:top-2 before:w-[10px] before:h-[10px] before:bg-surface before:border-2 before:border-outline before:rounded-full">
+<div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+<h3 class="font-headline-sm text-primary">UI/UX Design Intern</h3>
+<span class="font-label-caps text-label-caps text-on-surface-variant">2018 - 2019</span>
+</div>
+<div class="font-body-md text-on-surface font-medium mb-3">Creative Agency X, Remote</div>
+<ul class="list-none flex flex-col gap-2 text-on-surface-variant text-body-md">
+<li class="relative pl-4 before:content-['-'] before:absolute before:left-0 before:text-outline">Assisted in creating wireframes and high-fidelity prototypes for e-commerce redesigns.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-stack-lg bg-surface-container-low border-t border-outline-variant flat no shadows">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-desktop py-stack-md max-w-container-max mx-auto font-body-md text-body-md text-on-surface">
+<div class="font-label-caps text-label-caps tracking-widest mb-4 md:mb-0">
+                © 2024 The Sophisticated Craftsperson. Built with precision and artistic intent.
+            </div>
+<ul class="flex gap-gutter items-center">
+<li>
+<a class="transition-opacity duration-300 hover:opacity-80 hover:text-secondary text-on-surface-variant" href="#">GitHub</a>
+</li>
+<li>
+<a class="transition-opacity duration-300 hover:opacity-80 hover:text-secondary text-on-surface-variant" href="#">LinkedIn</a>
+</li>
+<li>
+<a class="transition-opacity duration-300 hover:opacity-80 hover:text-secondary text-on-surface-variant" href="#">Twitter</a>
+</li>
+</ul>
+</div>
+</footer>
+</body></html>
